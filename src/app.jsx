@@ -10,6 +10,7 @@ export function App() {
     columns: ['派生先', '閃き難易度', '派生元', '対応武器'],
     search: { selector: (cell, rowIndex, cellIndex) => (cellIndex === 0 ? cell : null) },
     data,
+    width: 'auto',
   })
 
   useEffect(() => {
@@ -19,6 +20,13 @@ export function App() {
   return (
     <div className="container px-4">
       <div ref={wrapperRef} />
+
+      <div id="footer">
+        Source:
+        <a href="http://tyoikenkyu.web.fc2.com/rsaga_m/data/hirameki_r.html">
+          ミンサガ - 閃き派生表（逆引き）｜ちょい研究所
+        </a>
+      </div>
     </div>
   )
 }
