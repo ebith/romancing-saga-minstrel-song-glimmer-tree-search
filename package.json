@@ -1,0 +1,22 @@
+{
+  "name": "romancing-saga-minstrel-song-glimmer-tree-search",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "gridjs": "^5.1.0",
+    "preact": "^10.11.3"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.4.0",
+    "prettier": "^2.8.1",
+    "vite": "^4.0.0",
+    "vite-plugin-windicss": "^1.8.10",
+    "windicss": "^3.5.6"
+  }
+}
